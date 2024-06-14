@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   }
+   main{
+   width:80%;
+   margin:0 auto;
+   }
+   courses,.faculty,.packages,.Blog,.instructor{
+   margin: 20px;
+   padding: 10px;
+   border: 1 px solid #ccc;
+   border-radius: 5px;
+   }
+   .instructor p{
+     text-align: center;  
+   }
+   .instructor button,.packages button{
+   display: block;
+   margin: 10px auto;
+   padding: 10px 20px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   }
+   .instructor button:hover,.packages button:hover{
+   background-color: #45a049;
+   }
+   .faculty,.faculty-member,.packages.package,.Blog article{
+   margin :10 px 0;
+   padding: 10px;
+   border:1 px solid #ddd;
+   border: radius 5px;
+   }
+   .packages ul{
+   list-style-type:none;
+   padding:0;
+   }
+   .packages ul li{
+       padding: 5px 0;
+       display: flex;
+   align-items: center;
+   }
+   .faculty-member{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 23%;
+   }
+   .faculty-member{
+   display: flex;
+   justify-content: space-between;
+   
+   }
+   .faculty-member img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   margin-right: 10px;
+   }
+   .Blog article img{
+   width:200px ;
+   height: auto;
+   border-radius: 5px
+   }
+   .Blog article{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   }
+   
